@@ -1,7 +1,7 @@
 custom_sudoers:
   file.managed:
     - name: /etc/sudoers.d/saltsudo
-    - source: salt://temp/init.sls
+    - source: salt://sudoers/sudoers
     - user: root
     - group: root
     - mode: 440
