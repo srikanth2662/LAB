@@ -1,7 +1,7 @@
 # This file is effectively managed by Salt,manual changes would be reverted"
 
 
-Operating System: {{grains.osfinger}}                               Region: {{grains.example.region}}
+Operating System: {{grains.osfinger}}                               Version: {{grains.lsb_distrib_id}}
 Kernel: {{grains.kernelrelease}}                              Manufacturer: {{grains.manufacturer}}
 OS Release: {{grains.osrelease}}                                           OS Architecture: {{grains.osarch}}
-Environment: {{grains.example.env}}                                              CPU_Model: {{grains.cpu_model}}
+IP: {{grains.fqdn_ip4}}                                              CPU_Model: {{grains.cpu_model}}
