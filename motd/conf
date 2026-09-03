@@ -4,4 +4,4 @@
 Operating System: {{grains.osfinger}}                               Region: {{grains.example.region}}
 Kernel: {{grains.kernelrelease}}                              Manufacturer: {{grains.manufacturer}}
 OS Release: {{grains.osrelease}}                                           OS Architecture: {{grains.osarch}}
-Environment: {{grains.example.env}}                                              CPU_Model: {{grains.cpu_model}}
+Environment: {{grains.example.env}}                                             CPU_Model: {{grains.cpu_model}}
